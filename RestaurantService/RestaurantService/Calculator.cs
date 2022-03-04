@@ -7,4 +7,9 @@ public static class Calculator
     {
         return a + b;
     }
+
+    public static int Sub(int a, int b)
+    {
+        return a - b;
+    }
 }
