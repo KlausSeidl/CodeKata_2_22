@@ -13,12 +13,8 @@ namespace RestaurantService
 
         public void AddTable(int tableNumber, int numberOfSeats)
         {
-            var table = new Table();
-            table.TableNumber = tableNumber;
-            table.NumberOfSeats = numberOfSeats;
-
+            var table = new Table(tableNumber, numberOfSeats);
             _tables.Add(table);
-
         }
 
         public IList<Table> GetAllTables()
@@ -31,5 +27,11 @@ namespace RestaurantService
     {
         public int TableNumber { get; set; }
         public int NumberOfSeats { get; set; }
+
+        public Table(int tableNumber, int numberOfSeats)
+        {
+            TableNumber = tableNumber;
+            NumberOfSeats = numberOfSeats;
+        }
     }
 }
