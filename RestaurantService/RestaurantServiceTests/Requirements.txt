@@ -1,0 +1,12 @@
+﻿Aufgabenbeschreibung:
+Ein Anwender möchte in einem Restaurant für x Personen zu einer gegebenen Uhrzeit für x Stunden einen Tisch reservieren.
+Wenn kein Tisch frei ist, liefert der Service als Antwort eine "kein Tisch frei" Antwort.
+Wenn ein Tisch frei ist, wird die Reservierung in der Datenbank eingetragen und der Anwender erhält zusätzlich zur Antwort vom Service eine Bestätigungsemail.
+
+Requirements:
+* Der RestaurantService verwaltet verfügbare Tische (Anzahl der Tische und jeweilige Tischgröße)
+* Der RestaurantService bietet eine Tischreservierung für x Personen an.
+* Der RestaurantService bietet eine Tischreservierung für eine gegebene Uhrzeit für x Stunden.
+* Der RestaurantService überprüft, ob ein Tisch verfügbar ist.
+* Der RestaurantService liefert die Antwort "kein Tisch frei", wenn kein Tisch verfügbar ist.
+* Der RestaurantService reserviert einen Tisch durch einen Eintrag in die DB und eine Email-Bestätigung, wenn ein gewünschter Tisch verfügbar ist.
