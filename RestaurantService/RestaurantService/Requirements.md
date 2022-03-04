@@ -1,12 +1,1 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RestaurantService
-{
-    class Requirements
-    {
-    }
-}
+﻿Änderungen werden in git immer unter dem Namen aufgeführt, der die LiveShare Session gestartet hat.
